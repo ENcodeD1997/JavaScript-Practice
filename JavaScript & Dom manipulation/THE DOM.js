@@ -43,8 +43,17 @@ h1.innerHTML = 'I\'m a div!';
 document.body.append(h1);
 
 const alexa = document.createElement("p");
-alexa.innerHTML = "I am some text a paragraph if you will!";
+alexa.innerHTML = "I am some text, a paragraph if you will!";
 
 document.body.append(alexa);
+
+const blueText = document.createElement("h3");
+blueText.innerText = "I am a blue h3!";
+blueText.style.color = 'blue';
+//purposefully using single and double quotes to remind myself that its ok to use either.
+// '' single quotes will need different methods of punctuation to achieve the same results as double quotes.
+// this can include:  <p>'I\'m getting the hang of this.</p>
+document.body.append(blueText);
 // I've run into some trouble in the past concerning naming my variables I'll keep in mind what
 // I have learned here today ~ be more cautious of what to name and how to name your variables!
+
