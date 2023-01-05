@@ -41,3 +41,10 @@ const h1 = document.createElement("h1");
 h1.innerHTML = 'I\'m a div!';
 
 document.body.append(h1);
+
+const alexa = document.createElement("p");
+alexa.innerHTML = "I am some text a paragraph if you will!";
+
+document.body.append(alexa);
+// I've run into some trouble in the past concerning naming my variables I'll keep in mind what
+// I have learned here today ~ be more cautious of what to name and how to name your variables!
