@@ -56,4 +56,9 @@ blueText.style.color = 'blue';
 document.body.append(blueText);
 // I've run into some trouble in the past concerning naming my variables I'll keep in mind what
 // I have learned here today ~ be more cautious of what to name and how to name your variables!
+const body = document.body
+const para = document.createElement("div");
+para.innerText = "Hello World!";
+para.textContent
 
+body.appendChild(div);
